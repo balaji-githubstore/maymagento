@@ -30,7 +30,7 @@ public class BaseTest {
 
 		LoginPage login = new com.abc.pages.LoginPage(driver);
 		login.sendUserName("balajidinakaran1@gmail.com");
-		login.sendPassword("Welcome123");
+		login.sendPassword("Welcome1234");
 		login.clickLogin();
 
 		MainPage main = new MainPage(driver);
